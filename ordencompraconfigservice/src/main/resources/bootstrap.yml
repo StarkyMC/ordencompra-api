@@ -1,0 +1,19 @@
+
+server:
+  port: 8086
+
+spring: 
+  cloud: 
+     config: 
+      server:
+       git: 
+       uri: https://github.com/StarkyMC/ordencompra-api
+       searchPaths: config-data
+       username:
+       password:
+       default-label: "main"
+       
+ security:
+ user:
+   name: admin
+   password: 123
